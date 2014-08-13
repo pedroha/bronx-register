@@ -20,9 +20,13 @@
 			width: 300px;
 		}
 
-		input[name="gender"] {
+		input[type="radio"] {
+			width: 50px;
+			border: 2px solid red;
+		}
+
+		form > div > div {
 			display: inline;
-			outline: red;
 		}
 
 		.required {
@@ -47,9 +51,12 @@
 			<label for="student[grade]">Grade</label>
 			<input type="text" id="student[grade]"></input>
 
-			<label for="student[gender]">Gender</label>
-			<input type="radio" name="student[gender]" value="female" checked>Female</input>
-			<input type="radio" name="student[gender]" value="male">Male</input>
+			<label for="gender">Gender</label>
+
+			<input type="radio" name="student[gender]" id="female" value="female" checked></input>
+			<label for="female">Female</label>
+			<input type="radio" name="student[gender]" id="male" value="male"></input>
+			<label for="male">Male</label>
 
 			<label for="student[school]">School</label>
 			<input type="text" id="student[school]"></input>
