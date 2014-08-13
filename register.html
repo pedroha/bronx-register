@@ -20,6 +20,11 @@
 			width: 300px;
 		}
 
+		input[name="gender"] {
+			display: inline;
+			outline: red;
+		}
+
 		.required {
 			color: red;
 		}
@@ -36,8 +41,15 @@
 			<label for="student[name]">Name <span class="required">(*)</span></label>
 			<input type="text" id="student[name]" required></input>
 
+			<label for="student[age]">Age</label>
+			<input type="text" id="student[age]"></input>
+
 			<label for="student[grade]">Grade</label>
 			<input type="text" id="student[grade]"></input>
+
+			<label for="student[gender]">Gender</label>
+			<input type="radio" name="student[gender]" value="female" checked>Female</input>
+			<input type="radio" name="student[gender]" value="male">Male</input>
 
 			<label for="student[school]">School</label>
 			<input type="text" id="student[school]"></input>
@@ -74,26 +86,3 @@
 	
 </body>
 </html>
-
-<!--
-
-Student: 
-  -First Name
-  -Last Name
-  -Grade/Age (either? both?)
-  -Gender (?)
-  -School Name (?)
-
-Mandatory:
-
-Parent's:
-  -Name
-  -Phone
-  -Email (optional?)
-
-
-"how did you hear about us?" 
-
-I want to build an App for...
-
-// -->
