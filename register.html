@@ -6,7 +6,7 @@
 
 	<style>
 
-		label, input {
+		label, input, textarea {
 			width: 100%;
 			display: block;
 		}
@@ -25,7 +25,7 @@
 
 		<div>
 			<h2>Student</h2>
-			<label for="student[name]">Name</label>
+			<label for="student[name]">Name (*)</label>
 			<input type="text" id="student[name]"></input>
 
 			<label for="student[grade]">Grade</label>
@@ -38,16 +38,27 @@
 
 		<div>
 			<h2>Parent</h2>
-			<label for="parent[name]">Name</label>
+			<label for="parent[name]">Name (*)</label>
 			<input type="text" id="parent[name]"></input>
 
-			<label for="parent[phone]">Phone</label>
+			<label for="parent[phone]">Phone (*)</label>
 			<input type="text" id="parent[phone]"></input>
 
-			<label for="parent[email]">Email</label>
+			<label for="parent[email]">Email (*)</label>
 			<input type="text" id="parent[email]"></input>
 		</div>
 
+
+		<div>
+			<h2>Survey</h2>
+			<label for="survey[discovery]">How did you hear about us?</label>
+			<textarea name="survey[discovery]" id="" rows="4"></textarea>
+
+			<label for="survey[why-build-an-app]">I'd love to build and App for</label>
+			<textarea name="survey[why-build-an-app]" id="" rows="10"></textarea>
+		</div>
+
+		
 	</form>
 	
 </body>
