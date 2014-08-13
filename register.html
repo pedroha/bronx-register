@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Build An App | Registration</title>
 
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
 	<style>
 
 		label, input, textarea {
@@ -24,6 +26,10 @@
 			width: 20px;
 		}
 
+		h2, label, form {
+			font-family: 'Lobster', cursive;
+		}
+
 		.required {
 			color: red;
 		}
@@ -33,13 +39,14 @@
 			margin-bottom: 2em;
 		}
 
+
 	</style>
 
 </head>
 <body>
 
 	<form action="/" method="post">
-
+		<span class="required">(*)</span> Required Fields
 		<div>
 			<h2>Student</h2>
 			<label for="student[name]">Name <span class="required">(*)</span></label>
