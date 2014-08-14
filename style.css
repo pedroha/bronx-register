@@ -1,0 +1,56 @@
+body {
+	font-size: 2em;
+}
+
+form {
+	background-color: #ddd;
+}
+
+form > div {
+	padding: 10px;
+	margin: 10px;
+	border: 8px dotted pink;
+}
+
+label, input, textarea {
+	width: 100%;
+	display: block;
+}
+
+form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+	width: 300px;
+}
+
+input[type="radio"] {
+	width: 20px;
+}
+
+h2, label, form {
+	font-family: 'Lobster', cursive;
+}
+
+input, textarea {
+	font-family: 'Droid Sans', sans-serif;			
+	font-size: 0.8em;
+	padding: 10px;
+}
+
+label {
+	margin-top: 0.5em;
+}
+
+.required {
+	color: red;
+}
+
+.sex {
+	display: inline;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
