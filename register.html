@@ -4,9 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Build An App | Registration</title>
 
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 	<style>
+
+
+		body {
+			font-size: 2em;
+		}
+
+		form > div {
+			padding: 10px;
+			background-color: #ddd;
+		}
 
 		label, input, textarea {
 			width: 100%;
@@ -30,12 +41,22 @@
 			font-family: 'Lobster', cursive;
 		}
 
+		input, textarea {
+			font-family: 'Droid Sans', sans-serif;			
+			font-size: 1em;
+		}
+
+		label {
+			margin-top: 0.5em;
+		}
+
 		.required {
 			color: red;
 		}
 
 		.sex {
 			display: inline;
+			margin-top: 2em;
 			margin-bottom: 2em;
 		}
 
@@ -52,6 +73,9 @@
 			<label for="student[name]">Name <span class="required">(*)</span></label>
 			<input type="text" id="student[name]" required></input>
 
+			<label for="student[school]">School</label>
+			<input type="text" id="student[school]"></input>
+
 			<label for="student[age]">Age</label>
 			<input type="text" id="student[age]"></input>
 
@@ -64,9 +88,6 @@
 			<label for="female" class="sex">Female</label>
 			<input type="radio" name="student[gender]" id="male" value="male" class="sex"></input>
 			<label for="male" class="sex">Male</label>
-
-			<label for="student[school]">School</label>
-			<input type="text" id="student[school]"></input>
 		</div>
 
 
