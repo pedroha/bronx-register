@@ -1,15 +1,16 @@
 body {
 	font-size: 2em;
+	color: #FFF9C8;
 }
 
 form {
-	background-color: #ddd;
+	background-color: #18B29D;
 }
 
 form > div {
 	padding: 10px;
 	margin: 10px;
-	border: 8px dotted pink;
+	border: 8px dotted #FFA68F;
 }
 
 label, input, textarea {
@@ -35,7 +36,8 @@ h2, label, form {
 }
 
 input, textarea {
-	font-family: 'Droid Sans', sans-serif;			
+	font-family: 'Droid Sans', sans-serif;		
+	background-color: #B5EBB9;
 	font-size: 0.8em;
 	padding: 10px;
 }
@@ -45,7 +47,7 @@ label {
 }
 
 .required {
-	color: red;
+	color: #FF4867;
 }
 
 .sex {
