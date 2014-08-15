@@ -1,6 +1,7 @@
 body {
 	font-size: 2em;
 	color: #FFF9C8;
+	background-color: #FFF9C8;
 }
 
 form {
@@ -21,10 +22,12 @@ label, input, textarea {
 form {
 	width: 500px;
 	margin: 0 auto;
+	padding-bottom: 20px;
 }
 
 input[type="submit"] {
 	width: 300px;
+	margin: 10px auto;
 }
 
 input[type="radio"] {
@@ -42,12 +45,23 @@ input, textarea {
 	padding: 10px;
 }
 
+input, textarea {
+	border-radius: 10px;
+	border: none;
+	outline: 0;
+	transition: 0.5s;
+}
+
+input:hover, textarea:hover {
+	border: 4px solid #FFA68F;
+}
+
 label {
 	margin-top: 0.5em;
 }
 
 .required {
-	color: #FF4867;
+	color: #FFA68F;
 }
 
 .sex {
