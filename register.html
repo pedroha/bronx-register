@@ -16,18 +16,6 @@
 <body>
 
 	<script type="text/javascript">
-
-		var cacheBuster = function() {
-			var post = document.getElementById('hacker-post');
-			var ts = new Date().getTime();
-			var action = post["action"] + "?ts=" + ts; //attributes.getNamedItem("action") + "?" + ts;
-			post.setAttribute("action", action);
-		};
-
-		window.onload = function() {
-			cacheBuster();
-		};
-
 	</script>
 
 	<div class="container">
@@ -77,7 +65,7 @@
 				<label for="survey[discovery]">How did you hear about us?</label>
 				<textarea name="survey[discovery]" name="survey[discovery]" id="" rows="4"></textarea>
 
-				<label for="survey[why-build-an-app]">I love to build and App to do...</label>
+				<label for="survey[why-build-an-app]">I'd love to build an App to do...</label>
 				<textarea name="survey[why-build-an-app]" id="survey[why-build-an-app]" rows="10"></textarea>
 			</div>
 			<p>
