@@ -57,6 +57,10 @@ input, textarea {
 	font-size: 0.8em;
 }
 
+input[required] {
+	background-color: #FFA68F;	
+}
+
 form, input, textarea {
 	border-radius: 10px;	
 }
