@@ -4,6 +4,10 @@ body {
 	background-color: #FFF9C8;
 }
 
+div.container {
+	padding-bottom: 50px;
+}
+
 form {
 	background-color: #18B29D;
 }
@@ -12,6 +16,11 @@ form > div {
 	padding: 10px;
 	margin: 10px;
 	border: 8px dotted #FFA68F;
+	transition: 0.25s;
+}
+
+form > div:hover {
+	border: 8px dotted #B5EBB9;
 }
 
 label, input, textarea {
@@ -20,13 +29,13 @@ label, input, textarea {
 }
 
 form {
-	width: 500px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
 
 input[type="submit"] {
-	width: 300px;
+	width: 200px;
 	margin: 10px auto;
 }
 
@@ -42,14 +51,20 @@ input, textarea {
 	font-family: 'Droid Sans', sans-serif;		
 	background-color: #B5EBB9;
 	font-size: 0.8em;
-	padding: 10px;
+}
+
+form, input, textarea {
+	border-radius: 10px;	
 }
 
 input, textarea {
-	border-radius: 10px;
 	border: none;
 	outline: 0;
 	transition: 0.5s;
+}
+
+input, textarea, p {
+	padding: 10px;	
 }
 
 input:hover, textarea:hover {
@@ -61,12 +76,11 @@ label {
 }
 
 .required {
-	color: #FFA68F;
+	color: #FF4867;
 }
 
 .sex {
 	display: inline;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 

@@ -30,57 +30,64 @@
 
 	</script>
 
-	<form id="hacker-post" method="post">
-		Required Fields<span class="required">(*)</span> 
-		<div>
-			<h2>Student</h2>
-			<label for="student[name]">Name <span class="required">(*)</span></label>
-			<input type="text" id="student[name]" name="student[name]" required></input>
+	<div class="container">
 
-			<label for="student[school]">School</label>
-			<input type="text" id="student[school]" name="student[school]"></input>
+		<form id="hacker-post" method="post">
+			<p>
+				Required Fields<span class="required">(*)</span> 
+			</p>
+			<div>
+				<h2>Student</h2>
+				<label for="student[name]">Name <span class="required">(*)</span></label>
+				<input type="text" id="student[name]" name="student[name]" required></input>
 
-			<label for="student[age]">Age</label>
-			<input type="text" id="student[age]" name="student[age]"></input>
+				<label for="student[school]">School</label>
+				<input type="text" id="student[school]" name="student[school]"></input>
 
-			<label for="student[grade]">Grade</label>
-			<input type="text" id="student[grade]" name="student[grade]"></input>
+				<label for="student[age]">Age</label>
+				<input type="text" id="student[age]" name="student[age]"></input>
 
-			<label for="gender" class="sex">Gender</label>
+				<label for="student[grade]">Grade</label>
+				<input type="text" id="student[grade]" name="student[grade]"></input>
 
-			<input type="radio" name="student[gender]" id="female" value="female" checked class="sex"></input>
-			<label for="female" class="sex">Female</label>
-			<input type="radio" name="student[gender]" id="male" value="male" class="sex"></input>
-			<label for="male" class="sex">Male</label>
-		</div>
+				<label for="gender">Gender</label>
 
-
-		<div>
-			<h2>Parent</h2>
-			<label for="parent[name]">Name <span class="required">(*)</span></label>
-			<input type="text" id="parent[name]" name="parent[name]" required></input>
-
-			<label for="parent[phone]">Phone <span class="required">(*)</span></label>
-			<input type="text" id="parent[phone]" name="parent[phone]" required></input>
-
-			<label for="parent[email]">Email <span class="required">(*)</span></label>
-			<input type="text" id="parent[email]" name="parent[email]" required></input>
-		</div>
+				<input type="radio" name="student[gender]" id="female" value="female" checked class="sex"></input>
+				<label for="female" class="sex">Female</label>
+				<input type="radio" name="student[gender]" id="male" value="male" class="sex"></input>
+				<label for="male" class="sex">Male</label>
+			</div>
 
 
-		<div>
-			<h2>Survey</h2>
-			<label for="survey[discovery]">How did you hear about us?</label>
-			<textarea name="survey[discovery]" name="survey[discovery]" id="" rows="4"></textarea>
+			<div>
+				<h2>Parent</h2>
+				<label for="parent[name]">Name <span class="required">(*)</span></label>
+				<input type="text" id="parent[name]" name="parent[name]" required></input>
 
-			<label for="survey[why-build-an-app]">I love to build and App to do...</label>
-			<textarea name="survey[why-build-an-app]" id="survey[why-build-an-app]" rows="10"></textarea>
-		</div>
-		Required Fields<span class="required">(*)</span> 
+				<label for="parent[phone]">Phone <span class="required">(*)</span></label>
+				<input type="text" id="parent[phone]" name="parent[phone]" required></input>
 
-		<input type="submit"></input>
+				<label for="parent[email]">Email <span class="required">(*)</span></label>
+				<input type="text" id="parent[email]" name="parent[email]" required></input>
+			</div>
 
-	</form>
-	
+
+			<div>
+				<h2>Survey</h2>
+				<label for="survey[discovery]">How did you hear about us?</label>
+				<textarea name="survey[discovery]" name="survey[discovery]" id="" rows="4"></textarea>
+
+				<label for="survey[why-build-an-app]">I love to build and App to do...</label>
+				<textarea name="survey[why-build-an-app]" id="survey[why-build-an-app]" rows="10"></textarea>
+			</div>
+			<p>
+				Required Fields<span class="required">(*)</span> 
+			</p>
+			<input type="submit"></input>
+		</form>
+
+	</div>
+
+
 </body>
 </html>
